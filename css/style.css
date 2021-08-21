@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+html, body, button {font-family: 'Ubuntu', sans-serif; font-size: 17px;}
+img {max-width: 100%;}
+.c {text-align: center !important;}
+/* .container, .container-fluid {margin-top: 20px;} */
+
+/* Меню */
+#top-menu {box-shadow: 1px 1px 3px #8DA399; margin-top: 0;}
+
+#top-menu .navbar-brand {font-weight: bold; margin-left: 30px;}
+#top-menu .navbar-brand:hover {color: #5BC0DE;}
+
+#top-menu .tel {font-weight: bold; margin-right: 30px;}
+#top-menu .tel:hover {color: #5BC0DE;}
+
+#top-menu .navbar-nav .active {border-bottom: 3px solid #5BC0DE;}
+#top-menu .navbar-nav .active a {font-weight: bold; color: #5BC0DE;}
+
+/* Блок 1 Главная */
+#block1 {display: table; width: 100%; height: 100vh; background: url(../img/block1-bg.jpg) center fixed; background-size: cover;}
+#block1 .row {background: rgba(0, 0, 0, 0.6); display: table-cell; margin: 0; padding: 0 10px; text-align: center; vertical-align: middle;}
+#block1 h1 {margin: 30px 0 10px 0; font-size: 47px; font-weight: 700; line-height: 56px; text-transform: uppercase; color: #fff;}
+#block1 h2 {color: #eee; margin-bottom: 50px; font-size: 22px;}
+#block1 .btn-get-started {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+#block1 .btn-get-started:hover {background: #5BC0DE; border: 2px solid #5BC0DE;}
+
+/* Блок 2 Услуги */
+#block2 {padding-top: 20px;}
+#block2 h2 {text-transform: uppercase;}
+#block2 h2:after {display: block; width: 150px; height: 2px; background: #5BC0DE; margin: 20px auto; content: '';}
+
+.services {background: #F7F7F7; padding: 20px 0;}
+
+#block2  .services .tarif {}
+#block2  .services .tarif > div {background: #F7F7F7;  margin: 0 10px; padding: 10px; border-radius: 8px;}
+#block2  .services .tarif > div .header {font-size: 3em; color: #5BC0DE;}
+#block2  .services .tarif > div .price {font-size: 2.0em; color: #5BC0DE;}
+
+/* Блок 3 Инлайн форма */
+#block3 {padding-top: 20px;}
+
+/* Блок 4 Гарантии*/
+#block4 {padding-top: 30px;}
+#block4 h2 {text-transform: uppercase;}
+#block4 h2:after {display: block; width: 150px; height: 2px; background: #5BC0DE; margin: 20px auto; content: '';}
+
+#block4  .guarantees {background: #F7F7F7; padding: 20px 0;}
+#block4  .guarantees .tarif {}
+#block4  .guarantees .tarif > div {background: #F7F7F7;  margin: 0 10px; padding: 10px; border-radius: 8px;}
+#block4  .guarantees .tarif > div .header {font-size: 2.4em; padding: 15px; color: #5BC0DE;}
+#block4  .guarantees .tarif > div .price {font-size: 1.5em; color: #5BC0DE;}
+
+
+/* Блок 5 Команда*/
+#block5 {padding-top: 20px;}
+#block5 h2 {text-transform: uppercase;}
+#block5 h2:after {display: block; width: 150px; height: 2px; background: #5BC0DE; margin: 20px auto; content: '';}
+
+#block5  .services .tarif {}
+#block5  .services .tarif > div {background: #F7F7F7;  margin: 0 10px; padding: 10px; border-radius: 8px;}
+#block5  .services .tarif > div .header {font-size: 2.3em; color: #5BC0DE;}
+#block5  .services .tarif > div .price {font-size: 2.3em; color: #5BC0DE;}
+
+
+/* Блок 6 Контакты*/
+#block6 {padding-top: 20px;}
+#block6 h2 {text-transform: uppercase;}
+#block6 h2:after {display: block; width: 150px; height: 2px; background: #5BC0DE; margin: 20px auto; content: '';}
+
+.services {background: #F7F7F7; padding: 20px 0;}
+
+#block6  .services .tarif {}
+#block6  .services .tarif > div {background: #F7F7F7;  margin: 0 10px; padding: 10px; border-radius: 8px;}
+#block6  .services .tarif > div .fas {color: #5BC0DE;}
+#block6  .services .tarif > div .fas::before {font-size: 30px;}
+
+/* Блок 7 Подвал*/
+#footer {background: #343b40; padding: 30px 0; color: #fff; font-size: 14px;}
+#footer .copyright { text-align: center;}
+
+/* кнопка на вверх */
+#back-to-top {
+  position: fixed;
+  display: none;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  left: 15px;
+  bottom: 15px;
+}
+
